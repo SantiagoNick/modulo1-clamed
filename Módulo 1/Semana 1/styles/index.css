@@ -1,0 +1,65 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #a52a2a;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 75px;
+}
+
+body {
+  background-color: #ff0;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  margin-top: 20px;
+}
+
+img {
+  width: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(60, 197, 248);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    animation-delay: 300ms;
+}
+
+.navbar img{
+    float: left;
+    width: 50px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}

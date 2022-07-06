@@ -1,0 +1,39 @@
+#linha {
+    display: flex;
+    padding: 5px;
+}
+.imagem {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+img {
+    width: 500px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(60, 197, 248);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .navbar a:hover {
+      background: #ddd;
+      color: black;
+      animation-delay: 300ms;
+  }
+  
+  .navbar img{
+      float: left;
+      width: 50px;
+  }
