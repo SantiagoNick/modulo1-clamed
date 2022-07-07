@@ -9,6 +9,10 @@ if (nota >= 7) {
   console.log(
     "Parabéns, você tirou a média mínima. Não esqueça de continuar estudando ;)"
   );
+  document.write(
+    "Parabéns, você tirou a média mínima. Não esqueça de continuar estudando ;)"
+  );
 } else {
   console.log("Você não foi aprovado");
+  document.write("Você não foi aprovado");
 }
