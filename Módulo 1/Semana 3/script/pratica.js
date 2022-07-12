@@ -34,11 +34,11 @@
 
 // console.log(imprimirArray([1, 2, 3, 4, 5, 6, 9, 8, 77]));
 
-function imprimeElementosDaLista(lista = []) {
-  for (let item of lista) {
+function imprimirElementosDaLista(plataformas = []) {
+  for (let item of plataformas) {
     console.log(item);
   }
-  let quantidade = "A quantidade de elementos da lista são " + lista.length;
+  let quantidade = "Quantidade de elementos: " + plataformas.length;
   return quantidade;
 }
-console.log(imprimeElementosDaLista(["oi", "turu", "bom"]));
+console.log(imprimirElementosDaLista(["PS5", "XBox", "Switch", "PC"]));
