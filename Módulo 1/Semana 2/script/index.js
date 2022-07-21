@@ -138,10 +138,16 @@
 
 
 //Exercício 10
-// var nome = window.prompt("Seu nome");
-// var nota1 = window.prompt("Sua primeira nota");
-// var nota2 = window.prompt("Sua segunda nota");
-// var nota3 = window.prompt("Sua terceira nota");
-// var nota4 = window.prompt("Sua quarta nota");
+var nome = window.prompt("Seu nome");
+var notas = [];
+while (notas < 4) {
+    window.prompt("Sua nota");
+    notas.push;
+    notas++;
+}
+for (notas = 0; notas < 4; notas++) {
+    console.log((notas[0] + notas[1] + notas[2] + notas[3])/4);
+}
+
 // document.write("<h4>", nome, "</br>", email, "</h4>");
 // document.write("<h3>", parseFloat(nota1) + parseFloat(nota2), "</h3>");
